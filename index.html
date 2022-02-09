@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="text-center">RUGLE Security Survey <br><i class="fa-solid fa-handshake"></i></h2>
+        <form action="/thanks.html" class="form">
+            <h3>The RUGLE Security survey aims to provide an in-depth understanding of technology used by private
+                enterprises in the private cloud, based on surveys conducted with over 500 enterprises globally. We also
+                examine the factors impacting organisations’ use of security technologies in their private cloud
+                environments. The survey uncovers private cloud security challenges and trends, and explores responses
+                to six specific questions below...</h3>
+            <br>
+            <div class="input-group">
+                <label for="q1" class="label">Full Name</label>
+                <input type="text" id="q1" class="input">
+                <span class="error-message"></span>
+            </div>
+            <div class="input-group">
+                <label for="q2" class="label">Company ID (see email)</label>
+                <input type="text" id="q2" class="input">
+                <span class="error-message"></span>
+            </div>
+            <br>
+            <div class="input-group">
+                <label for="q3" class="label">Q1. What challenges are private cloud-based businesses facing?</label>
+                <input type="text" id="q3" class="input">
+                <span class="error-message"></span>
+            </div>
+            <div class="input-group">
+                <label for="q4" class="label">Q2. How are private cloud based companies adapting their security?</label>
+                <input type="text" id="q4" class="input">
+                <span class="error-message"></span>
+            </div>
+            <div class="input-group">
+                <label for="q5" class="label">Q3. Are security budgets for security necessary?
+                </label>
+                <input type="text" id="q5" class="input">
+                <span class="error-message"></span>
+            </div>
+            <div class="input-group">
+                <label for="q6" class="label">Q4. How are businesses getting value from their security
+                    investments?</label>
+                <input type="text" id="q6" class="input">
+                <span class="error-message"></span>
+            </div>
+            <div class="input-group">
+                <label for="q7" class="label">Q5. What are the top five security technologies a business should
+                    consider?</label>
+                <input type="text" id="q7" class="input">
+                <span class="error-message"></span>
+            </div>
+            <div class="input-group">
+                <label for="q8" class="label">Q6. Who should pay for security in a private cloud environment?</label>
+                <input type="text" id="q8" class="input">
+                <span class="error-message"></span>
+            </div>
+            <br>
+            <button class="button" type="submit">Submit Survey</button>
+        </form>
+        <script defer src="app.js"></script>
+        <script type="module">
+
+            // Import the functions you need from the SDKs you need          
+                import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.6/firebase-app.js";
+              
+                const firebaseConfig = {
+
+apiKey: "AIzaSyBBrunE_kGoNwwBKxuIbpV6P1Q20yk-afQ",
+
+authDomain: "form-529bd.firebaseapp.com",
+
+projectId: "form-529bd",
+
+storageBucket: "form-529bd.appspot.com",
+
+messagingSenderId: "788271220571",
+
+appId: "1:788271220571:web:a86840e99f904a854b3c7e"
+
+};
+
+const app = initializeApp(firebaseConfig);
+              </script>
+    </div>
+</body>
+
+</html>
